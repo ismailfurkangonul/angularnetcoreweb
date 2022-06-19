@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row" ng-app="HomeAPP" ng-controller="HomeController">
+
+
+    <table class="table">
+        <tr ng-repeat="item in KullaniciListem">
+
+            <td>{{item.adSoyad}}</td>
+            <td>{{item.telefon}}</td>
+            <td>{{item.id}}</td>
+
+        </tr>
+
+
+
+    </table>
+
+
+
+
+</div>
+
+@section Scripts {
+    <script src="~/js/home.js"></script>
+
+}
