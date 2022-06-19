@@ -12,6 +12,7 @@ namespace angularnetcoreweb.Controllers
 
             return View();
         }
+        [HttpPost]
         public List<kullanici> GetList() {
 
             kullanici k = new kullanici();
