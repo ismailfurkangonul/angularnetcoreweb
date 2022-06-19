@@ -2,6 +2,7 @@
 {
     public class kullanici
     {
+        //kullanici eklendi
         public kullanici()
         {
             AdSoyad = "";
